@@ -1,7 +1,22 @@
 body {
     background-color: #E0C9BA;
 }
+
 img {
-    border-style: Dashed;
+    border-style: solid;
     border-width: 5px; 
+    float: left;
+}
+
+h1 {
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+h3 {
+    font-family: 'playfair Display', serif;
 }
