@@ -15,23 +15,40 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-dark bg-dark">
-        <!-- Navbar content and buttons -->
-        <h1>Sarita Peter</h1>
-        <div class="btn-group btn-group-toggle" data-toggle="buttons">
-            <label class="btn btn-secondary active">
-              <input type="radio" name="options" id="option1" autocomplete="off" checked> About Me!
-            </label>
-            <label class="btn btn-secondary">
-              <input type="radio" name="options" id="option2" autocomplete="off"> Portfolio
-            </label>
-            <label class="btn btn-secondary">
-              <input type="radio" name="options" id="option3" autocomplete="off"> Contacts
-            </label>
-          </div>
-    </nav>
 
-        <!--Overall Grid-->
+    <!--"Navbar with text, inline element" Bootstrap-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Sarita Peter</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="file:///C:/Users/sarit/Downloads/uw-sea-fsf-pt-06-2020-u-c-master/uw-sea-fsf-pt-06-2020-u-c-master/2homework/index.html">About Me! <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="navbar-nav">
+              <a class="nav-link" href="file:///C:/Users/sarit/Downloads/uw-sea-fsf-pt-06-2020-u-c-master/uw-sea-fsf-pt-06-2020-u-c-master/2homework/portfolio.html">Portfolio</a>
+            </li>
+            <li class="Portfolio">
+              <a class="nav-link" href="file:///C:/Users/sarit/Downloads/uw-sea-fsf-pt-06-2020-u-c-master/uw-sea-fsf-pt-06-2020-u-c-master/2homework/contact.html">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown link
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="file:///C:/Users/sarit/Downloads/uw-sea-fsf-pt-06-2020-u-c-master/uw-sea-fsf-pt-06-2020-u-c-master/2homework/index.html">About Me!</a>
+                <a class="dropdown-item" href="file:///C:/Users/sarit/Downloads/uw-sea-fsf-pt-06-2020-u-c-master/uw-sea-fsf-pt-06-2020-u-c-master/2homework/portfolio.html">Portfolio</a>
+                <a class="dropdown-item" href="file:///C:/Users/sarit/Downloads/uw-sea-fsf-pt-06-2020-u-c-master/uw-sea-fsf-pt-06-2020-u-c-master/2homework/contact.html">Contacts</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+    <!--Overall Grid-->
     <div class="container">
 
         <!--First Row-->
@@ -57,7 +74,7 @@
             <!--Second of two columns-->
             <div class="col-md-6">
                 <h2>About Me!</h2>
-                
+
                 <br>
 
                     <p>Hello! My name is Sarita Peter, I am a Web Developer based in Lynnwood Washington. I am a cat owner and have lived in the PNW all my life. I am passionate about art, the beach, coffee, spicy foods and relaxing. In my free time I love playing video games like Minecraft or Skyrim</p>
@@ -72,6 +89,10 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+       
+    <!--footer-->
+    <div class="footer">
+        <p>Footer</p>
+    </div>
 </body>
 </html>

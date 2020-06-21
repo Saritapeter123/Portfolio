@@ -19,3 +19,14 @@ h2 {
 p {
     font-family: 'Merriweather', serif;
 }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: darkslategray;
+  color: white;
+  text-align: center;
+}
+
