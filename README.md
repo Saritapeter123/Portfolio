@@ -2,7 +2,7 @@ For this homework assignment we were instructed to create a responsive portfolio
     
     1. Index.html, Style.css, Portfolio.html, Contact.html
     
-    2. Responsive webpage that will scale down to size if someone is to view it on their phone.
+    2. Responsive webpage that will scale down to size if someone is viewing it on their phone.
     
     3. Personalized information, including your photo + bio, contacts, projects, socail media.
     
